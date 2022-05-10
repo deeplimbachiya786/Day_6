@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>CSS Hover Element - Selector OR Child Combinator</title>
+		<style type="text/css">
+		#MainUL li ul li{display:none;}
+		#MainUL li:hover ul li{display:block;}
+		#MainUL li:hover ul li ul li{display:none;}
+        #MainUL li ul li:hover ul li{display:block;}
+		#MainUL li ul li:hover ul li ul li{display:none;}
+		#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body>
+		<ul id="MainUL">
+            <li>Courses
+				<ul>
+					<li>BA</li>
+					<li>BCA
+						<ul>
+							<li>Colleges
+								<ul>
+									<li>Silver oak university</li>
+									<li>H.K. College</li>
+									<li>Gujarat University</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>BCOM</li>
+					<li>B.TECH</li>
+				</ul>
+			</li>
+			<li>Games
+				<ul>
+					<li>BGMI</li>
+					<li>COD(Call Of Duty)</li>
+					<li>Counter Strike GO</li>
+				</ul>
+			</li>
+			<li>Movies
+				<ul>
+					<li>Jhund</li>
+					<li>RRR</li>
+					<li>KGF Chapter 2</li>
+				</ul>
+			</li>
+			<li>Web Series
+				<ul>
+					<li>Money Heist</li>
+					<li>The Family Man</li>
+					<li>Scam 1992</li>
+				</ul>
+			<li>Product
+				<ul>
+					<li>Camera</li>
+					<li>Mobile</li>
+					<li>Laptop</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>
